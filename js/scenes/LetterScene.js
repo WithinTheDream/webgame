@@ -17,9 +17,7 @@ export default class LetterScene extends Phaser.Scene {
             "i meant it, i meant everything ive said, and i still remember the things we've talked about and the promises we made.\n\n" +
             "and here i want to say sorry.. because i know sometimes i can be little cliny, i overthink things, and " +
             "i get jealous easily than i should, and sometimes i worry about the things that probably dont have to worrying about, " +
-            "but thats me. i dont meant to control or presure you and yes i know im not even your bf, but i hope you can like this side of me too. thank youu \n\n" +
-            "----------------------------------------------------------------------\n" +
-            "do u even remember my birthday?";
+            "but thats me. i dont meant to control or presure you and yes i know im not even your bf, but i hope you can like this side of me too. thank youu \n\n";
 
         this.letterTextDisplay = this.add.text(75, 75, letterContent, {
             fontSize: '19px',
