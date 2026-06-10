@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111;
+    overflow: hidden; /* Mencegah scrolling di HP */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+}
+
+#game-container {
+    width: 100%;
+    height: 100%;
+}
+
+canvas {
+    display: block;
+}
